@@ -1,0 +1,86 @@
+#create-reciepe-container{
+    background-color: #000000;
+    height: 100vh;
+}
+
+#cr-body{
+    /* border: 1px solid red; */
+    width: 650px;
+    margin-left: 30vw;
+}
+
+#cr-body>h1{
+    color: #f2f8f9;
+    font-size: 52px;
+    letter-spacing: 1.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-top: 35px;
+}
+
+#cr-dummy-border{
+    height: 1px;
+    width: 110px;
+    background-color: #f2f8f9;
+    margin-top: 25px;
+}
+
+#cr-body-description{
+    color: #414141;
+    margin-top: 15px;
+    font-size: 16px;
+    width:340px
+}
+
+#cr-body>form{
+    margin-top: 50px;
+}
+
+#cr-body>form>div{
+    margin-top: 15px;
+}
+
+#cr-body>form>div>label{
+    color: #f2f8f9;
+}
+
+#cr-body>form>div>div>input{
+    margin-top: 5px;
+    width: 550px;
+    height: 30px;
+}
+
+#cr-body>form>div>div>textarea{
+    margin-top: 5px;
+    width: 550px;
+    height: 50px;
+}
+
+.cr-inputs{
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+#imgfile:hover{
+    cursor: pointer;
+}
+
+#cr-post-btn{
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#cr-post-btn:hover{
+    background-color: #01549c;;
+    color: #f2f8f9;
+}
